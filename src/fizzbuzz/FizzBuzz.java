@@ -15,7 +15,15 @@ public class FizzBuzz {
 			if(i % 3 == 0 && i % 5 == 0) {
 				fizzBuzz = "FizzBuzz";	
 				System.out.println(fizzBuzz);
+			}else if(i % 3 == 0 && i % 5 != 0) {
+				fizzBuzz = "Fizz";
+				System.out.println(fizzBuzz);
+			}else if(i % 3 != 0 && i % 5 == 0) {
+				fizzBuzz = "Buzz";
+				System.out.println(fizzBuzz);
+			}else {
+				System.out.println(i);
 				}
-		}
+			}
 	}
 }
